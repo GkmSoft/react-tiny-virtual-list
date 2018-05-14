@@ -19,14 +19,14 @@ import {
 } from './constants';
 
 const STYLE_WRAPPER: React.CSSProperties = {
-  overflow: 'auto',
+  overflow: 'scroll',
   willChange: 'transform',
   WebkitOverflowScrolling: 'touch',
 };
 
 const STYLE_INNER: React.CSSProperties = {
   position: 'relative',
-  overflow: 'hidden',
+  overflow: 'visible',
   width: '100%',
   minHeight: '100%',
 };
